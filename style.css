@@ -89,8 +89,16 @@ h1 {
   margin-top: 120px;
   margin-left: 100px;
   margin-right: 100px;
+}
+.dev-image {
   background-image: url(shape-1.png);
   background-repeat: no-repeat;
   background-size: 180px;
   background-position: 1px;
+}
+.global-image {
+  background-image: url(shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 1110px 350px;
 }
