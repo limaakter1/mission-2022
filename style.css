@@ -1,25 +1,26 @@
 body {
-  font-family: "Merriweather", serif;
-
   margin: 0;
 }
 h1 {
   font-size: 50px;
   font-weight: 700;
 }
-.mission-2022 {
+.orange {
   color: orange;
 }
 .all-mission-2022 {
   display: flex;
+  font-family: "Merriweather", serif;
+}
+.main-part {
+  margin-top: 90px;
 }
 .main-mission {
   width: 50%;
   padding-left: 5%;
-  margin-top: 70px;
 }
 .main-mission img {
-  width: 70%;
+  width: 80%;
 }
 .description-mission {
   margin-bottom: 6%;
@@ -38,4 +39,45 @@ h1 {
   border: 0;
   text-decoration: none;
   border-radius: 5px;
+}
+.my-mission {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 70px;
+}
+.center {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.mission-part {
+  width: 300px;
+  height: 400px;
+  background-color: lightcyan;
+  padding-left: 15px;
+  margin-left: 5%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.vission-part {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(240, 221, 224);
+  padding-left: 15px;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+.goals-part {
+  width: 300px;
+  height: 400px;
+  background-color: lightyellow;
+  padding-left: 15px;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+.flexible {
+  display: flex;
+  margin-left: 180px;
 }
