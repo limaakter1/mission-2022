@@ -124,6 +124,9 @@ h1 {
   margin-left: 14px;
   margin-bottom: 20px;
 }
+.ques {
+  font-weight: 600;
+}
 .red {
   color: orangered;
 }
