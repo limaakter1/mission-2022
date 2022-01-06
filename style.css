@@ -52,8 +52,8 @@ h1 {
   font-weight: 800;
 }
 .mission-part {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+
   background-color: lightcyan;
   padding-left: 15px;
   margin-left: 5%;
@@ -62,21 +62,22 @@ h1 {
 }
 
 .vission-part {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+
   background-color: rgb(240, 221, 224);
   padding-left: 15px;
   margin-left: 5%;
   border-radius: 10px;
 }
 .goals-part {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+
   background-color: lightyellow;
   padding-left: 15px;
   margin-left: 5%;
   border-radius: 10px;
 }
+
 .flexible {
   display: flex;
   margin-left: 180px;
@@ -139,5 +140,8 @@ h1 {
 }
 footer {
   background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
+  margin-top: 50px;
 }
