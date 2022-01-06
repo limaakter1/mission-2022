@@ -80,7 +80,8 @@ h1 {
 
 .flexible {
   display: flex;
-  margin-left: 180px;
+  margin-left: 10px;
+  margin-right: 50px;
 }
 .second {
   font-weight: 700;
